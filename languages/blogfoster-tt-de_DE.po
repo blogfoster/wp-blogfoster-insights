@@ -1,0 +1,72 @@
+# Copyright (C) 2015
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick New Site Defaults\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/quick-new-site-"
+"defaults\n"
+"POT-Creation-Date: 2015-11-13 13:17+0100\n"
+"PO-Revision-Date: 2015-11-13 13:17+0100\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: info@blogfoster.com\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-blogfoster-tt-admin.php:156
+#, php-format
+msgid "Welcome to %s! You can find the plugin at %s."
+msgstr "Willkommen zu %s! Du kannst das Plugin finden unter %s."
+
+#: admin/class-blogfoster-tt-admin.php:209
+msgid ""
+"For blogfoster affiliates: Let count your page views for blogfoster easily."
+msgstr ""
+"Für blogfoster-Affiliates: Lass deine Seitenabrufe für blogfoster einfach "
+"zählen."
+
+#: admin/class-blogfoster-tt-admin.php:228
+msgid "Let count easily"
+msgstr "Lass einfach zählen"
+
+#: admin/class-blogfoster-tt-admin.php:229
+msgid ""
+"The blogfoster Traffic Tracker sends every page view of this website to "
+"blogfoster.com. Get the website ID as shown in your blogfoster account. "
+"After you have entered it the blogfoster Traffic Tracker starts to work."
+msgstr ""
+"Der blogfoster Traffic Tracker sendet jeden Seitenaufruf dieser Website zu "
+"blogfoster.com. Verwende die Website ID wie in deinem blogfoster-Konto "
+"angegeben. Nachdem du sie eingegeben hast, startet der Tracker mit dem "
+"Zählen."
+
+#: admin/class-blogfoster-tt-admin.php:233
+msgid "Website ID"
+msgstr "Website ID"
+
+#: admin/class-blogfoster-tt-admin.php:234
+msgid ""
+"Type in the website ID and save it. The ID has to be a positive integer. "
+"Otherwise the tracker will not work."
+msgstr ""
+"Gebe die Website ID ein und speichere sie ab. Die ID muss eine positive "
+"Ganzzahl sein. Ansonsten arbeitet der Tracker nicht."
+
+#: admin/partials/blogfoster-tt-admin-display.php:33
+msgid "Helpful links"
+msgstr "Hilfreiche Links"
+
+#: admin/partials/blogfoster-tt-admin-display.php:35
+msgid "Login to your blogfoster account"
+msgstr "Login zu deinem blogfoster-Konto"
+
+#: admin/partials/blogfoster-tt-admin-display.php:36
+msgid "blogfoster Website"
+msgstr "blogfoster-Website"
