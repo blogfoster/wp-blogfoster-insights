@@ -1,0 +1,66 @@
+/**
+ * CSS for admin pages of the blogfoster Insights plugin.
+ *
+ */
+
+/**
+ * Imports
+ */
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Cookie);
+
+ /**
+ * Layout
+ */
+
+.bfinsights_wrapper {
+  overflow: hidden;
+}
+#bfinsights_main {
+  float: left;
+  width: 66%;
+}
+#bfinsights_footer {
+  float: right;
+  width: 33%;
+}
+#bfinsights_main .bfinsights_content {
+  margin: 2em 1em 1em 0;
+}
+#bfinsights_footer .bfinsights_content {
+  margin: 2em 0 1em 1em;
+}
+body.rtl #bfinsights_main {
+  float: right;
+  width: 66%;
+}
+body.rtl #bfinsights_footer {
+  float: left;
+  width: 33%;
+}
+body.rtl #bfinsights_main .bfinsights_content {
+  margin: 2em 0 1em 1em;
+}
+body.rtl #bfinsights_footer .bfinsights_content {
+  margin: 2em 1em 1em 0;
+}
+
+/* If auto-folding of the admin menu */
+@media only screen and (max-width: 900px) {
+  /* dissolve floating */
+  #bfinsights_main,
+  #bfinsights_footer,
+  #bfinsights_main .bfinsights_content,
+  #bfinsights_footer .bfinsights_content {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+}
+
+/**
+* Elements
+*/
+.bfinsights_logo {
+  font-family: "Cookie";
+  font-size: 1.88em;
+}
