@@ -106,7 +106,7 @@ class Blogfoster_Tt_Public {
 		$id = absint( $this->plugin_settings[ 'website_id' ] );
 		if ( $id ) {
 			printf(
-				'<script type="text/javascript">(function(window, document){window._blogfoster=window._blogfoster || {};window._blogfoster.insights=window._blogfoster.insights || {};window._blogfoster.insights.websiteId=511;var t="https://insights.blogfoster.com/v1/" + window._blogfoster.insights.websiteId + ".js";var e=document, s=e.createElement("script"), a=e.getElementsByTagName("script")[0];s.type="text/javascript"; s.defer=true; s.async=true; s.src=t; a.parentNode.insertBefore(s,a);})(window, document);</script><noscript><p><img src="https://insights.blogfoster.com/v1/511.png" style="border:0;" alt="" /></p></noscript>'
+				'<script type="text/javascript">(function(window, document){window._blogfoster=window._blogfoster || {};window._blogfoster.insights=window._blogfoster.insights || {};window._blogfoster.insights.websiteId=%d;var t="https://insights.blogfoster.com/v1/" + window._blogfoster.insights.websiteId + ".js";var e=document, s=e.createElement("script"), a=e.getElementsByTagName("script")[0];s.type="text/javascript"; s.defer=true; s.async=true; s.src=t; a.parentNode.insertBefore(s,a);})(window, document);</script><noscript><p><img src="https://insights.blogfoster.com/v1/%d.png" style="border:0;" alt="" /></p></noscript>'
 				$id
 			);
 			print "\n";
