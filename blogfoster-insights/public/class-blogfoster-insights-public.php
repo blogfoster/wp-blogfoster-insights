@@ -82,7 +82,7 @@ class Blogfoster_Insights_Public {
   public function print_insights_snippet () {
     $id = absint( $this->plugin_settings[ 'website_id' ] );
     if ( !$id ) {
-      return
+      return;
     }
 
     $snippet = '
