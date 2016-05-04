@@ -1,9 +1,9 @@
 #!/usr/bin/env make
 
 zip:
-	zip -r blogfoster-insights.zip ./blogfoster-insights
+	./buildscripts/zip.sh
 
 lint:
-	./build/lint.sh
+	./buildscripts/lint.sh
 
-.PHONY: zip
+.PHONY: zip lint

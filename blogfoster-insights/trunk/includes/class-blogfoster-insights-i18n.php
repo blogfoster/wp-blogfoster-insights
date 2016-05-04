@@ -23,7 +23,7 @@
  * @package    Blogfoster_Insights
  * @subpackage Blogfoster_Insights/includes
  */
-class Blogfoster_Tt_i18n {
+class Blogfoster_Insights_i18n {
 
   /**
    * The domain specified for this plugin.

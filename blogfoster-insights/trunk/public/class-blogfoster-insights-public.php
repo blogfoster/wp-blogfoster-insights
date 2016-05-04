@@ -75,7 +75,29 @@ class Blogfoster_Insights_Public {
   }
 
   /**
-   * Print the traffic tracker snippet with the stored website ID
+   * Register the stylesheets for the public-facing side of the site.
+   *
+   * @since    1.0.0
+   */
+  public function enqueue_styles() {
+
+    wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/blogfoster-insights-public.css', array(), $this->plugin_version, 'all' );
+
+  }
+
+  /**
+   * Register the JavaScript for the public-facing side of the site.
+   *
+   * @since    1.0.0
+   */
+  public function enqueue_scripts() {
+
+    wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/blogfoster-insights-public.js', array( 'jquery' ), $this->plugin_version, false );
+
+  }
+
+  /**
+   * Print the blogfoster insights snippet with the stored website ID
    *
    * @since    1.0.0
    */
@@ -97,7 +119,7 @@ class Blogfoster_Insights_Public {
         })(window, document);
       </script>
       <noscript>
-        <p><img src="https://insights.blogfoster.com/v1/931.png" style="border:0;" alt="" /></p>
+        <p><img src="https://insights.blogfoster.com/v1/%d.png" style="border:0;" alt="" /></p>
       </noscript>
     ';
 

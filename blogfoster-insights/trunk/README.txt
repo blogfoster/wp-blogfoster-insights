@@ -4,8 +4,8 @@ Tags: blogfoster, widget, snippet, traffic, tracking, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.4
 Stable tag: 1.0.0
-License: MIT
-License URI: https://opensource.org/licenses/MIT
+License: GNU GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
 This plugin integrates blogfoster insights into your wordpress.com blog.
 

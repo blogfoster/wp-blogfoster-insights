@@ -130,9 +130,6 @@ class Blogfoster_Insights_Admin {
 
     wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/blogfoster-insights-admin.css', array(), $this->plugin_version, 'all' );
 
-    // comment out the next line if a colorpicker is desired
-    // wp_enqueue_style( 'wp-color-picker' );
-
   }
 
   /**
@@ -143,9 +140,6 @@ class Blogfoster_Insights_Admin {
   public function enqueue_scripts() {
 
     wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/blogfoster-insights-admin.js', array( 'jquery' ), $this->plugin_version, false );
-
-    // comment out the next line if a colorpicker is desired
-    // wp_enqueue_script( 'wp-color-picker' );
 
   }
 
@@ -227,59 +221,6 @@ class Blogfoster_Insights_Admin {
     $title = null;
     $html = null;
 
-    /* define the form sections, order by appereance, with headlines, and options
-     *
-     * Documentation:
-       =============
-       $this->form_structure is an array with values for each form section;
-       overwrite values in {} brackets with your choice:
-
-      '{section_name}' => array(
-
-        # for each section a function which prints out the section is required;
-        # the function's name must be 'print_section_{section_name}'
-        # see as example print_section_1st_section() in this class
-
-        'headline' => __( '{Section Headline}', 'blogfoster-insights' ),
-        'description' => __( '{Section Description}', 'blogfoster-insights' ),
-        'options' => array(
-          '{option_name_1}' => array(
-            # for all form elements:
-            'title'   => __( '{Element Label, required}', 'blogfoster-insights' ),
-            'desc'    => __( '{Element Description, e.g. advice what to enter, optional}', 'blogfoster-insights' ),
-            'type'    => '{Element Type, required}',
-            # 'type' can be:
-              # 'checkbox'
-              # 'checkboxes'
-              # 'radiobuttons'
-              # 'selection'
-              # 'textarea'
-              # 'url'
-              # 'colorpicker'
-
-            # additionally in case of radio buttons, checkboxes and selection fields:
-            'values'  => array( {associative array with key names as option values and values as option labels, required} ),
-
-            # additionally in case of selection fields:
-            'default' => '{one of the key names in the 'values' array, required}',
-          ),
-          '{option_name_2}' => array(
-            ...
-          ),
-          ...
-        ),
-      ),
-
-       Example for a selection field with preselected default value:
-      'content_alignment' => array(
-        'type'    => 'selection',
-        'title'   => __( 'Text Alignment', 'blogfoster-insights' ),
-        'desc'    => __( 'Select the alignment of the content within the bar', 'blogfoster-insights' ),
-        'values'  => array( 'left' => __( 'left-aligned', 'blogfoster-insights' ), 'center' => __( 'centered', 'blogfoster-insights' ), 'right' => __( 'right-aligned', 'blogfoster-insights' ) ),
-        'default' => 'center',
-      ),
-
-     */
     $this->form_structure = array(
       '1st_section' => array(
         'headline' => __( 'Let count easily', 'blogfoster-insights' ),
