@@ -1,6 +1,6 @@
 === blogfoster Insights ===
 Contributors: blogfoster
-Tags: blogfoster, widget, snippet, traffic, tracking, analytics, insights
+Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.4
 Stable tag: 1.0.0
@@ -11,7 +11,7 @@ This plugin integrates blogfoster insights into your wordpress.com blog.
 
 == Description ==
 
-This Plugin integrats blogfoster Insights into your wordpress.com blog. It helps us to understand your blog and help you choosing the best campaigns. After you have entered blogfoster Insights starts to work.
+This Plugin integrats blogfoster Insights into your wordpress.com blog. It helps blogfoster to understand your blog and help you choosing the best campaigns. After you configured the plugin in the settings section blogfoster Insights starts to work.
 
 = Languages =
 
@@ -38,12 +38,13 @@ If you have any new idea for this plugin post your questions and ideas in the [s
 
 = Uploading in WordPress Dashboard =
 
-1. Navigate to the 'Add New' in the plugins dashboard
-2. Navigate to the 'Upload' area
-3. Select `blogfoster-insights.zip` from your computer
-4. Click 'Install Now'
-5. Activate the plugin in the Plugin dashboard
-6. Go to 'blogfoster Insights'
+1. Create a `.zip` archive of the plugin (`make zip` in root directory)
+2. Navigate to the 'Add New' in the plugins dashboard
+3. Navigate to the 'Upload' area
+4. Select `blogfoster-insights.zip` from your computer
+5. Click 'Install Now'
+6. Activate the plugin in the Plugin dashboard
+7. Go to 'blogfoster Insights'
 
 = Using FTP =
 
