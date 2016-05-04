@@ -7,11 +7,11 @@ Stable tag: 1.0.0
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-For blogfoster affiliates: Let count your page views for blogfoster easily.
+This plugin integrates blogfoster insights into your wordpress.com blog.
 
 == Description ==
 
-The blogfoster Traffic Tracker sends every page view of this website to blogfoster.com. Get the website ID as shown in your blogfoster account. After you have entered it the blogfoster Traffic Tracker starts to work.
+This Plugin integrats blogfoster Insights into your wordpress.com blog. It helps us to understand your blog and help you choosing the best campaigns. After you have entered blogfoster Insights starts to work.
 
 = Languages =
 
@@ -20,11 +20,11 @@ The user interface is available in:
 * English
 * German (Deutsch)
 
-Further translations are welcome. If you want to give in your translation please leave a notice in the [plugin's support forum](https://wordpress.org/support/plugin/blogfoster-tt).
+Further translations are welcome. If you want to give in your translation please leave a notice in the [plugin's support forum](https://wordpress.org/support/plugin/blogfoster-insights).
 
 = Your idea to improve the plugin is welcome =
 
-If you have any new idea for this plugin post your questions and ideas in the [support forum at wordpress.org](http://wordpress.org/support/plugin/blogfoster-tt). I will try to take a look and answer as soon as possible.
+If you have any new idea for this plugin post your questions and ideas in the [support forum at wordpress.org](http://wordpress.org/support/plugin/blogfoster-insights). I will try to take a look and answer as soon as possible.
 
 == Installation ==
 
@@ -43,7 +43,7 @@ If you have any new idea for this plugin post your questions and ideas in the [s
 3. Select `blogfoster-insights.zip` from your computer
 4. Click 'Install Now'
 5. Activate the plugin in the Plugin dashboard
-6. Go to 'blogfoster Traffic Tracker'
+6. Go to 'blogfoster Insights'
 
 = Using FTP =
 
@@ -51,13 +51,13 @@ If you have any new idea for this plugin post your questions and ideas in the [s
 2. Extract the `blogfoster-insights` directory to your computer
 3. Upload the `blogfoster-insights` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
-5. Go to 'blogfoster Traffic Tracker'
+5. Go to 'blogfoster Insights'
 
 == Frequently Asked Questions ==
 
 = Who can use this plugin? =
 
-The blogfoster Traffic Tracker is for all of our affiliates at blogfoster.com.
+Every blogger who is interested in its users.
 
 == Changelog ==
 
