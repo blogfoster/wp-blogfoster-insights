@@ -5,11 +5,11 @@
  *
  * This file is used to markup the public-facing aspects of the plugin.
  *
- * @link       http://www.webaccessibility.de/
+ * @link       http://www.blogfoster.com/
  * @since      1.0.0
  *
- * @package    Blogfoster_Tt
- * @subpackage Blogfoster_Tt/public/partials
+ * @package    Blogfoster_Insights
+ * @subpackage Blogfoster_Insights/public/partials
  */
 ?>
 

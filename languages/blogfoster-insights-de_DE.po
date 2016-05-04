@@ -20,23 +20,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-blogfoster-tt-admin.php:156
+#: admin/class-blogfoster-insights-admin.php:156
 #, php-format
 msgid "Welcome to %s! You can find the plugin at %s."
 msgstr "Willkommen zu %s! Du kannst das Plugin finden unter %s."
 
-#: admin/class-blogfoster-tt-admin.php:209
+#: admin/class-blogfoster-insights-admin.php:209
 msgid ""
 "For blogfoster affiliates: Let count your page views for blogfoster easily."
 msgstr ""
 "Für blogfoster-Affiliates: Lass deine Seitenabrufe für blogfoster einfach "
 "zählen."
 
-#: admin/class-blogfoster-tt-admin.php:228
+#: admin/class-blogfoster-insights-admin.php:228
 msgid "Let count easily"
 msgstr "Lass einfach zählen"
 
-#: admin/class-blogfoster-tt-admin.php:229
+#: admin/class-blogfoster-insights-admin.php:229
 msgid ""
 "The blogfoster Traffic Tracker sends every page view of this website to "
 "blogfoster.com. Get the website ID as shown in your blogfoster account. "
@@ -47,11 +47,11 @@ msgstr ""
 "angegeben. Nachdem du sie eingegeben hast, startet der Tracker mit dem "
 "Zählen."
 
-#: admin/class-blogfoster-tt-admin.php:233
+#: admin/class-blogfoster-insights-admin.php:233
 msgid "Website ID"
 msgstr "Website ID"
 
-#: admin/class-blogfoster-tt-admin.php:234
+#: admin/class-blogfoster-insights-admin.php:234
 msgid ""
 "Type in the website ID and save it. The ID has to be a positive integer. "
 "Otherwise the tracker will not work."
@@ -59,14 +59,14 @@ msgstr ""
 "Gebe die Website ID ein und speichere sie ab. Die ID muss eine positive "
 "Ganzzahl sein. Ansonsten arbeitet der Tracker nicht."
 
-#: admin/partials/blogfoster-tt-admin-display.php:33
+#: admin/partials/blogfoster-insights-admin-display.php:33
 msgid "Helpful links"
 msgstr "Hilfreiche Links"
 
-#: admin/partials/blogfoster-tt-admin-display.php:35
+#: admin/partials/blogfoster-insights-admin-display.php:35
 msgid "Login to your blogfoster account"
 msgstr "Login zu deinem blogfoster-Konto"
 
-#: admin/partials/blogfoster-tt-admin-display.php:36
+#: admin/partials/blogfoster-insights-admin-display.php:36
 msgid "blogfoster Website"
 msgstr "blogfoster-Website"

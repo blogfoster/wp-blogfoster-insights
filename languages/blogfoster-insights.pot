@@ -18,35 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-blogfoster-tt-admin.php:156
+#: admin/class-blogfoster-insights-admin.php:156
 #, php-format
 msgid "Welcome to %s! You can find the plugin at %s."
 msgstr ""
 
-#: admin/class-blogfoster-tt-admin.php:225
+#: admin/class-blogfoster-insights-admin.php:225
 msgid "Let count easily"
 msgstr ""
 
-#: admin/class-blogfoster-tt-admin.php:226
+#: admin/class-blogfoster-insights-admin.php:226
 msgid "The blogfoster Traffic Tracker sends every page view of this website to blogfoster.com. Get the website ID as shown in your blogfoster account. After you have entered it the blogfoster Traffic Tracker starts to work."
 msgstr ""
 
-#: admin/class-blogfoster-tt-admin.php:230
+#: admin/class-blogfoster-insights-admin.php:230
 msgid "Website ID"
 msgstr ""
 
-#: admin/class-blogfoster-tt-admin.php:231
+#: admin/class-blogfoster-insights-admin.php:231
 msgid "Type in the website ID and save it. The ID has to be a positive integer. Otherwise the tracker will not work."
 msgstr ""
 
-#: admin/partials/blogfoster-tt-admin-display.php:33
+#: admin/partials/blogfoster-insights-admin-display.php:33
 msgid "Helpful links"
 msgstr ""
 
-#: admin/partials/blogfoster-tt-admin-display.php:35
+#: admin/partials/blogfoster-insights-admin-display.php:35
 msgid "Login to your blogfoster account"
 msgstr ""
 
-#: admin/partials/blogfoster-tt-admin-display.php:36
+#: admin/partials/blogfoster-insights-admin-display.php:36
 msgid "blogfoster Website"
 msgstr ""

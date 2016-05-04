@@ -1,4 +1,4 @@
-	<?php
+  <?php
 
 /**
  * Fired when the plugin is uninstalled.
@@ -19,15 +19,15 @@
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       http://www.webaccessibility.de/
+ * @link       http://www.blogfoster.com/
  * @since      1.0.0
  *
- * @package    Blogfoster_Tt
+ * @package    Blogfoster_Insights
  */
 
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	exit;
+  exit;
 }
 
 /**
@@ -39,19 +39,19 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 // remove settings
 if ( is_multisite() ) {
 
-	$sites = wp_get_sites();
+  $sites = wp_get_sites();
 
-	if ( empty ( $sites ) ) return;
+  if ( empty ( $sites ) ) return;
 
-	foreach ( $sites as $site ) {
-		// switch to next blog
-		switch_to_blog( $site[ 'blog_id' ] );
-		// remove settings
-		delete_option( 'blogfoster-tt-options' );
-	}
-	// restore the current blog, after calling switch_to_blog()
-	restore_current_blog();
+  foreach ( $sites as $site ) {
+    // switch to next blog
+    switch_to_blog( $site[ 'blog_id' ] );
+    // remove settings
+    delete_option( 'blogfoster-insights-options' );
+  }
+  // restore the current blog, after calling switch_to_blog()
+  restore_current_blog();
 } else {
-	// remove settings
-	delete_option( 'blogfoster-tt-options' );
+  // remove settings
+  delete_option( 'blogfoster-insights-options' );
 }

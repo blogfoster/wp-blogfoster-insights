@@ -1,11 +1,11 @@
-=== blogfoster Traffic Tracker ===
-Contributors: Hinjiriyo
-Tags: blogfoster, widget, snippet, traffic, track, tracker, tracking
+=== blogfoster Insights ===
+Contributors: blogfoster
+Tags: blogfoster, widget, snippet, traffic, tracking, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.4
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
 For blogfoster affiliates: Let count your page views for blogfoster easily.
 
@@ -31,25 +31,25 @@ If you have any new idea for this plugin post your questions and ideas in the [s
 = Using The WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'blogfoster Traffic Tracker'
+2. Search for 'blogfoster Insights'
 3. Click 'Install Now'
 4. Activate the plugin on the Plugin dashboard
-5. Go to 'blogfoster Traffic Tracker'
+5. Go to 'blogfoster Insights'
 
 = Uploading in WordPress Dashboard =
 
 1. Navigate to the 'Add New' in the plugins dashboard
 2. Navigate to the 'Upload' area
-3. Select `blogfoster-tt.zip` from your computer
+3. Select `blogfoster-insights.zip` from your computer
 4. Click 'Install Now'
 5. Activate the plugin in the Plugin dashboard
 6. Go to 'blogfoster Traffic Tracker'
 
 = Using FTP =
 
-1. Download `blogfoster-tt.zip`
-2. Extract the `blogfoster-tt` directory to your computer
-3. Upload the `blogfoster-tt` directory to the `/wp-content/plugins/` directory
+1. Download `blogfoster-insights.zip`
+2. Extract the `blogfoster-insights` directory to your computer
+3. Upload the `blogfoster-insights` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 5. Go to 'blogfoster Traffic Tracker'
 
