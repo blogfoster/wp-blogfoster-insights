@@ -223,7 +223,7 @@ class Blogfoster_Insights_Admin {
 
     $this->form_structure = array(
       '1st_section' => array(
-        'headline' => __( 'Let count easily', 'blogfoster-insights' ),
+        'headline' => __( 'Website Settings', 'blogfoster-insights' ),
         'description' => __( 'This Plugin integrats blogfoster Insights into your wordpress.com blog. It helps us to understand your blog and help you choosing the best campaigns. After you have entered blogfoster Insights starts to work.', 'blogfoster-insights' ),
         'options' => array(
           'website_id' => array(
