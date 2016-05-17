@@ -32,7 +32,7 @@ submit_button();
 			<div class="bftt_content">
 				<h3><?php _e( 'Helpful links', 'blogfoster-tt' ); ?></h3>
 				<ul>
-					<li><a href="https://manage.blogfoster.com/"><?php _e( 'Login to your blogfoster account', 'blogfoster-tt' ); ?></a></li>
+					<li><a href="https://app.blogfoster.com/"><?php _e( 'Login to your blogfoster account', 'blogfoster-tt' ); ?></a></li>
 					<li><a href="http://www.blogfoster.com/"><?php _e( 'blogfoster Website', 'blogfoster-tt' ); ?></a></li>
 				</dl>
 			</div><!-- .bftt_content -->
