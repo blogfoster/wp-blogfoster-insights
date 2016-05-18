@@ -7,11 +7,11 @@ Stable tag: 1.0.0
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
-This plugin integrates blogfoster insights into your Wordpress blog.
+This plugin integrates blogfoster Insights into your WordPress blog.
 
 == Description ==
 
-This Plugin integrates blogfoster Insights into your Wordpress blog. It helps you to understand your blog better and helps blogfoster to choose the best cooperations and campaigns for you. After you configured the plugin in the settings section, blogfoster Insights starts to work.
+This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work.
 
 = Languages =
 

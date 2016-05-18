@@ -24,7 +24,7 @@ msgid "Welcome to %s! You can find the plugin at %s."
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:208
-msgid "Integrate blogfoster insights into your Wordpress blog."
+msgid "Integrate blogfoster insights into your WordPress blog."
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:226
@@ -32,7 +32,7 @@ msgid "Website Settings"
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:227
-msgid "This Plugin integrates blogfoster Insights into your Wordpress blog. It helps you to understand your blog better and helps blogfoster to choose the best cooperations and campaigns for you. After you configured the plugin in the settings section, blogfoster Insights starts to work."
+msgid "This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work."
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:231

@@ -205,7 +205,7 @@ class Blogfoster_Insights_Admin {
   public function main() {
 
     // just for a translation on the plugins list
-    $text = __( 'Integrate blogfoster insights into your Wordpress blog.', 'blogfoster-insights' );
+    $text = __( 'Integrate blogfoster insights into your WordPress blog.', 'blogfoster-insights' );
     // print options page
     include_once( 'partials/blogfoster-insights-admin-display.php' );
   }
@@ -224,7 +224,7 @@ class Blogfoster_Insights_Admin {
     $this->form_structure = array(
       '1st_section' => array(
         'headline' => __( 'Website Settings', 'blogfoster-insights' ),
-        'description' => __( 'This Plugin integrates blogfoster Insights into your Wordpress blog. It helps you to understand your blog better and helps blogfoster to choose the best cooperations and campaigns for you. After you configured the plugin in the settings section, blogfoster Insights starts to work.', 'blogfoster-insights' ),
+        'description' => __( 'This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work.', 'blogfoster-insights' ),
         'options' => array(
           'website_id' => array(
             'type'    => 'textfield',

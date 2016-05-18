@@ -5,8 +5,8 @@ This plugin integrates blogfoster Insights into your WordPress blog.
 ## Description
 
 This plugin integrates blogfoster Insights into your WordPress blog. It
-helps you to understand your blog and gives blogfoster the chance to offer you 
-the most suitable sponsored spots and campaigns. After you have configured the 
+helps you to understand your blog and gives blogfoster the chance to offer you
+the most suitable sponsored spots and campaigns. After you have configured the
 plugin in the settings section, blogfoster Insights starts to work.
 
 ## Installation
