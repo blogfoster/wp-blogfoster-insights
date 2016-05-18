@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/quick-new-site-"
 "defaults\n"
 "POT-Creation-Date: 2016-05-18 11:24+0200\n"
-"PO-Revision-Date: 2016-05-18 11:38+0200\n"
+"PO-Revision-Date: 2016-05-18 14:46+0200\n"
 "Last-Translator: blogfoster GmbH\n"
 "Language-Team: info@blogfoster.com\n"
 "Language: de_DE\n"
@@ -40,22 +40,22 @@ msgid ""
 "best cooperations and campaigns for you. After you configured the plugin in "
 "the settings section, blogfoster Insights starts to work."
 msgstr ""
-"Dieses Plugin integriert blogfoster Insights in Dein Wordpress Blog. Es "
-"hilft Dir dabei Deinen Blog besser zu verstehen und ermöglicht uns Dir die "
-"besten Kooperationen und Kampagnen heraus zu suchen. Fülle Deine "
-"Einstellungen aus damit es losgehen kann."
+"Dieses Plugin integriert blogfoster Insights in dein Wordpress Blog. "
+"blogfoster Insights hilft Dir deinen Blog besser zu verstehen und "
+"ermöglicht es blogfoster Dir optimale Sponsored Posts und Kampagnen "
+"vorzuschlagen. Konfiguriere das Plugin und schon kann es losgehen."
 
 #: admin/class-blogfoster-insights-admin.php:231
 msgid "Website ID"
-msgstr "Website ID"
+msgstr "Webseiten ID"
 
 #: admin/class-blogfoster-insights-admin.php:232
 msgid ""
 "Type in your blogfoster website ID and save it. The ID has to be a positive "
 "integer."
 msgstr ""
-"Bitte gib Deine Webseiten Id an und speichere die Änderungen. Die Webseiten "
-"Id muss eine positive Zahl sein."
+"Bitte gib deine Webseiten ID an und klicke auf Speichern. Die ID findest in "
+"der blogfoster Web App auf der Insights Ansicht."
 
 #: admin/partials/blogfoster-insights-admin-display.php:36
 msgid "Helpful links"
@@ -63,7 +63,7 @@ msgstr "Hilfreiche Links"
 
 #: admin/partials/blogfoster-insights-admin-display.php:38
 msgid "Login to your blogfoster account"
-msgstr "Login zu Deinem blogfoster Konto"
+msgstr "Login blogfoster Konto"
 
 #: admin/partials/blogfoster-insights-admin-display.php:39
 msgid "blogfoster Website"
