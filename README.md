@@ -1,25 +1,17 @@
-# blogfoster insights wordpress.com plugin
+# blogfoster Insights WordPress plugin
 
-This plugin integrates blogfoster insights into your Wordpress blog.
+This plugin integrates blogfoster Insights into your WordPress blog.
 
 ## Description
 
-This Plugin integrates blogfoster Insights into your Wordpress blog. It
-helps you to understand your blog better and helps blogfoster to choose the
-best cooperations and campaigns for you. After you configured the plugin in the
-settings section, blogfoster Insights starts to work.
+This plugin integrates blogfoster Insights into your WordPress blog. It
+helps you to understand your blog and gives blogfoster the chance to offer you 
+the most suitable sponsored spots and campaigns. After you have configured the 
+plugin in the settings section, blogfoster Insights starts to work.
 
 ## Installation
 
-### Using The WordPress Dashboard
-
-1. Navigate to the 'Add New' in the plugins dashboard
-2. Search for 'blogfoster Insights'
-3. Click 'Install Now'
-4. Activate the plugin on the Plugin dashboard
-5. Go to 'blogfoster Insights'
-
-### Uploading in WordPress Dashboard
+### Uploading to the WordPress
 
 1. Create a `.zip` archive of the plugin (`make zip` in root directory)
 2. Navigate to the 'Add New' in the plugins dashboard
