@@ -97,7 +97,7 @@ class Blogfoster_Insights_Public {
   }
 
   /**
-   * Print the blogfoster insights snippet with the stored website ID
+   * Print the blogfoster Insights snippet with the stored website ID
    *
    * @since    1.0.0
    */

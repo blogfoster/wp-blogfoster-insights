@@ -24,7 +24,7 @@ msgid "Welcome to %s! You can find the plugin at %s."
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:208
-msgid "Integrate blogfoster insights into your WordPress blog."
+msgid "Integrate blogfoster Insights into your WordPress blog."
 msgstr ""
 
 #: admin/class-blogfoster-insights-admin.php:226

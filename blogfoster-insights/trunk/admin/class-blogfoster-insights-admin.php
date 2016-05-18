@@ -205,7 +205,7 @@ class Blogfoster_Insights_Admin {
   public function main() {
 
     // just for a translation on the plugins list
-    $text = __( 'Integrate blogfoster insights into your WordPress blog.', 'blogfoster-insights' );
+    $text = __( 'Integrate blogfoster Insights into your WordPress blog.', 'blogfoster-insights' );
     // print options page
     include_once( 'partials/blogfoster-insights-admin-display.php' );
   }
