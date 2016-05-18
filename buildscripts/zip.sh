@@ -3,20 +3,21 @@
 set -e
 
 readonly ROOT=$(dirname $0)
-readonly PLUGIN_DIR="${ROOT}/../blogfoster-insights"
+readonly NAME='wp-blogfoster-insights'
+readonly PLUGIN_DIR="${ROOT}/../${NAME}"
 
 cd "${ROOT}" # we should be in the buildscripts direcotry now
 
 # cleanup left overs
-rm -f ../blogfoster-insights.zip
-rm -rf ./blogfoster-insights
+rm -f "../${NAME}.zip"
+rm -rf "./${NAME}"
 
 # copy data
-cp -r ../blogfoster-insights/trunk blogfoster-insights
-zip -rv blogfoster-insights.zip ./blogfoster-insights
+cp -r "../${NAME}/trunk" "${NAME}"
+zip -rv "${NAME}.zip" "./${NAME}"
 
 # cleanup copied data
-rm -rf ./blogfoster-insights
+rm -rf "./${NAME}"
 
 # mv zip to root
-mv ./blogfoster-insights.zip ..
+mv "./${NAME}.zip" ..

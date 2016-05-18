@@ -28,10 +28,10 @@ If you have any new ideas for this plugin send us a message to support@blogfoste
 
 = Uploading in WordPress Dashboard =
 
-1. Create a `.zip` archive of the plugin (`make zip` in root directory)
+1. Download the `.zip` archive of the plugin from the releases page: "https://github.com/blogfoster/wp-blogfoster-insights/releases/latest"
 2. Navigate to the 'Add New' in the plugins dashboard
 3. Navigate to the 'Upload' area
-4. Select `blogfoster-insights.zip` from your computer
+4. Select `wp-blogfoster-insights.zip` from your computer
 5. Click 'Install Now'
 6. Activate the plugin in the Plugin dashboard
 7. Go to 'blogfoster Insights'
