@@ -47,11 +47,11 @@ if ( is_multisite() ) {
     // switch to next blog
     switch_to_blog( $site[ 'blog_id' ] );
     // remove settings
-    delete_option( 'blogfoster-insights-options' );
+    delete_option( 'wp-blogfoster-insights-options' );
   }
   // restore the current blog, after calling switch_to_blog()
   restore_current_blog();
 } else {
   // remove settings
-  delete_option( 'blogfoster-insights-options' );
+  delete_option( 'wp-blogfoster-insights-options' );
 }

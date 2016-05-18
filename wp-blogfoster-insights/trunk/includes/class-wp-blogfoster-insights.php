@@ -95,7 +95,7 @@ class Blogfoster_Insights {
   public function __construct() {
 
     $this->plugin_name = 'blogfoster Insights';
-    $this->plugin_slug = 'blogfoster-insights';
+    $this->plugin_slug = 'wp-blogfoster-insights';
     $this->plugin_version = '1.0.0';
     $this->settings_db_slug = $this->plugin_slug . '-options';
     $this->plugin_settings = $this->get_plugin_settings();
@@ -129,24 +129,24 @@ class Blogfoster_Insights {
      * The class responsible for orchestrating the actions and filters of the
      * core plugin.
      */
-    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-blogfoster-insights-loader.php';
+    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wp-blogfoster-insights-loader.php';
 
     /**
      * The class responsible for defining internationalization functionality
      * of the plugin.
      */
-    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-blogfoster-insights-i18n.php';
+    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wp-blogfoster-insights-i18n.php';
 
     /**
      * The class responsible for defining all actions that occur in the admin area.
      */
-    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-blogfoster-insights-admin.php';
+    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-wp-blogfoster-insights-admin.php';
 
     /**
      * The class responsible for defining all actions that occur in the public-facing
      * side of the site.
      */
-    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-blogfoster-insights-public.php';
+    require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-wp-blogfoster-insights-public.php';
 
     $this->loader = new Blogfoster_Insights_Loader();
 
@@ -188,7 +188,7 @@ class Blogfoster_Insights {
     $this->loader->add_action( 'admin_menu', $plugin_admin, 'add_plugin_admin_menu' );
 
     // Add an action link pointing to the options page.
-    $plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'blogfoster-insights.php' );
+    $plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . 'wp-blogfoster-insights.php' );
     $this->loader->add_action( 'plugin_action_links_' . $plugin_basename, $plugin_admin, 'add_action_links' );
 
     // define the options
@@ -197,10 +197,10 @@ class Blogfoster_Insights {
     // hook on displaying a message after plugin activation
     // if single activation via link or multisite activation
     if ( isset( $_GET[ 'activate' ] ) or isset( $_GET[ 'activate-multi' ] ) ) {
-      $plugin_was_activated = get_transient( 'blogfoster-insights-show-message' );
+      $plugin_was_activated = get_transient( 'wp-blogfoster-insights-show-message' );
       if ( false !== $plugin_was_activated ) {
         $this->loader->add_action( 'admin_notices', $plugin_admin, 'display_activation_message' );
-        delete_transient( 'blogfoster-insights-show-message' );
+        delete_transient( 'wp-blogfoster-insights-show-message' );
       }
     }
   }

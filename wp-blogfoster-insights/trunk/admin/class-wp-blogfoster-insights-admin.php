@@ -128,7 +128,7 @@ class Blogfoster_Insights_Admin {
    */
   public function enqueue_styles() {
 
-    wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/blogfoster-insights-admin.css', array(), $this->plugin_version, 'all' );
+    wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/wp-blogfoster-insights-admin.css', array(), $this->plugin_version, 'all' );
 
   }
 
@@ -139,7 +139,7 @@ class Blogfoster_Insights_Admin {
    */
   public function enqueue_scripts() {
 
-    wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/blogfoster-insights-admin.js', array( 'jquery' ), $this->plugin_version, false );
+    wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/wp-blogfoster-insights-admin.js', array( 'jquery' ), $this->plugin_version, false );
 
   }
 
@@ -152,7 +152,7 @@ class Blogfoster_Insights_Admin {
     $label = 'Settings';
     $url  = esc_url( admin_url( sprintf( 'options-general.php?page=%s', $this->plugin_slug ) ) );
     $link = sprintf( '<a href="%s">%s &rsaquo; %s</a>', $url, __( $label ), $this->plugin_name );
-    $msg  = sprintf( __( 'Welcome to %s! You can find the plugin at %s.', 'blogfoster-insights' ), $this->plugin_name, $link );
+    $msg  = sprintf( __( 'Welcome to %s! You can find the plugin at %s.', 'wp-blogfoster-insights' ), $this->plugin_name, $link );
     $html = sprintf( '<div class="updated"><p>%s</p></div>', $msg );
     print $html;
   }
@@ -205,9 +205,9 @@ class Blogfoster_Insights_Admin {
   public function main() {
 
     // just for a translation on the plugins list
-    $text = __( 'Integrate blogfoster Insights into your WordPress blog.', 'blogfoster-insights' );
+    $text = __( 'Integrate blogfoster Insights into your WordPress blog.', 'wp-blogfoster-insights' );
     // print options page
-    include_once( 'partials/blogfoster-insights-admin-display.php' );
+    include_once( 'partials/wp-blogfoster-insights-admin-display.php' );
   }
 
   /**
@@ -223,13 +223,13 @@ class Blogfoster_Insights_Admin {
 
     $this->form_structure = array(
       '1st_section' => array(
-        'headline' => __( 'Website Settings', 'blogfoster-insights' ),
-        'description' => __( 'This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work.', 'blogfoster-insights' ),
+        'headline' => __( 'Website Settings', 'wp-blogfoster-insights' ),
+        'description' => __( 'This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work.', 'wp-blogfoster-insights' ),
         'options' => array(
           'website_id' => array(
             'type'    => 'textfield',
-            'title'   => __( 'Website ID', 'blogfoster-insights' ),
-            'desc'    => __( 'Type in your blogfoster website ID and save it. The ID has to be a positive integer.', 'blogfoster-insights' ),
+            'title'   => __( 'Website ID', 'wp-blogfoster-insights' ),
+            'desc'    => __( 'Type in your blogfoster website ID and save it. The ID has to be a positive integer.', 'wp-blogfoster-insights' ),
           ),
         ),
       ),

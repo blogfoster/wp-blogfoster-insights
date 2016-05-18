@@ -31,7 +31,7 @@ class Blogfoster_Insights_Activator {
   public static function activate() {
 
     // store the flag into the db to trigger the display of a message after activation
-    set_transient( 'blogfoster-insights-show-message', '1', 60 );
+    set_transient( 'wp-blogfoster-insights-show-message', '1', 60 );
 
   }
 

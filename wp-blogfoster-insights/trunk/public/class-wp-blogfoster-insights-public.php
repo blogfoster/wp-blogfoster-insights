@@ -81,7 +81,8 @@ class Blogfoster_Insights_Public {
    */
   public function enqueue_styles() {
 
-    wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/blogfoster-insights-public.css', array(), $this->plugin_version, 'all' );
+    // NOTE: we dont add any additional styles
+    // wp_enqueue_style( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'css/wp-blogfoster-insights-public.css', array(), $this->plugin_version, 'all' );
 
   }
 
@@ -92,7 +93,8 @@ class Blogfoster_Insights_Public {
    */
   public function enqueue_scripts() {
 
-    wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/blogfoster-insights-public.js', array( 'jquery' ), $this->plugin_version, false );
+    // NOTE: we dont add any additional scripts
+    // wp_enqueue_script( $this->plugin_slug, plugin_dir_url( __FILE__ ) . 'js/wp-blogfoster-insights-public.js', array( 'jquery' ), $this->plugin_version, false );
 
   }
 

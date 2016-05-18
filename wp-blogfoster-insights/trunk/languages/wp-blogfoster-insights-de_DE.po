@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/quick-new-site-"
 "defaults\n"
 "POT-Creation-Date: 2016-05-18 11:24+0200\n"
-"PO-Revision-Date: 2016-05-18 15:02+0200\n"
+"PO-Revision-Date: 2016-05-18 16:55+0200\n"
 "Last-Translator: blogfoster GmbH\n"
 "Language-Team: info@blogfoster.com\n"
 "Language: de_DE\n"
@@ -20,20 +20,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-blogfoster-insights-admin.php:155
+#: admin/class-wp-blogfoster-insights-admin.php:155
 #, php-format
 msgid "Welcome to %s! You can find the plugin at %s."
 msgstr "Willkommen zu %s! Du kannst das Plugin finden unter %s."
 
-#: admin/class-blogfoster-insights-admin.php:208
+#: admin/class-wp-blogfoster-insights-admin.php:208
 msgid "Integrate blogfoster Insights into your WordPress blog."
 msgstr "Integriere blogfoster Insights in Dein WordPress Blog."
 
-#: admin/class-blogfoster-insights-admin.php:226
+#: admin/class-wp-blogfoster-insights-admin.php:226
 msgid "Website Settings"
 msgstr "Webseiten Einstellungen"
 
-#: admin/class-blogfoster-insights-admin.php:227
+#: admin/class-wp-blogfoster-insights-admin.php:227
 msgid ""
 "This plugin integrates blogfoster Insights into your WordPress blog. It helps "
 "you to understand your blog and gives blogfoster the chance to offer you  the "
@@ -45,11 +45,11 @@ msgstr ""
 "Dir optimale Sponsored Posts und Kampagnen vorzuschlagen. Konfiguriere das "
 "Plugin und schon kann es losgehen."
 
-#: admin/class-blogfoster-insights-admin.php:231
+#: admin/class-wp-blogfoster-insights-admin.php:231
 msgid "Website ID"
 msgstr "Webseiten ID"
 
-#: admin/class-blogfoster-insights-admin.php:232
+#: admin/class-wp-blogfoster-insights-admin.php:232
 msgid ""
 "Type in your blogfoster website ID and save it. The ID has to be a positive "
 "integer."
@@ -57,14 +57,14 @@ msgstr ""
 "Bitte gib deine Webseiten ID an und klicke auf Speichern. Die ID findest in der "
 "blogfoster Web App auf der Insights Ansicht."
 
-#: admin/partials/blogfoster-insights-admin-display.php:36
+#: admin/partials/wp-blogfoster-insights-admin-display.php:36
 msgid "Helpful links"
 msgstr "Hilfreiche Links"
 
-#: admin/partials/blogfoster-insights-admin-display.php:38
+#: admin/partials/wp-blogfoster-insights-admin-display.php:38
 msgid "Login to your blogfoster account"
 msgstr "Login zu Deinem blogfoster Konto"
 
-#: admin/partials/blogfoster-insights-admin-display.php:39
+#: admin/partials/wp-blogfoster-insights-admin-display.php:39
 msgid "blogfoster Website"
 msgstr "blogfoster Webseite"

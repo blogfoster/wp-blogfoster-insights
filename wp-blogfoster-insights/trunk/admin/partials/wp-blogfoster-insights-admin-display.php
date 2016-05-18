@@ -33,10 +33,10 @@ submit_button();
     <!-- footer -->
     <div id="bfinsights_footer">
       <div class="bfinsights_content">
-        <h3><?php _e( 'Helpful links', 'blogfoster-insights' ); ?></h3>
+        <h3><?php _e( 'Helpful links', 'wp-blogfoster-insights' ); ?></h3>
         <ul>
-          <li><a target="_blank" href="https://app.blogfoster.com/"><?php _e( 'Login to your blogfoster account', 'blogfoster-insights' ); ?></a></li>
-          <li><a target="_blank" href="http://www.blogfoster.com/"><?php _e( 'blogfoster Website', 'blogfoster-insights' ); ?></a></li>
+          <li><a target="_blank" href="https://app.blogfoster.com/"><?php _e( 'Login to your blogfoster account', 'wp-blogfoster-insights' ); ?></a></li>
+          <li><a target="_blank" href="http://www.blogfoster.com/"><?php _e( 'blogfoster Website', 'wp-blogfoster-insights' ); ?></a></li>
         </ul>
       </div>
     </div>

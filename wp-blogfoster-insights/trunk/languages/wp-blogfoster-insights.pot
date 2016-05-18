@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Quick New Site Defaults\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/quick-new-site-defaults\n"
-"POT-Creation-Date: 2016-05-04 19:22+0200\n"
+"POT-Creation-Date: 2016-05-18 16:55+0200\n"
 "PO-Revision-Date: 2015-11-13 13:04+0100\n"
 "Language-Team: info@blogfoster.com\n"
 "MIME-Version: 1.0\n"
@@ -18,39 +18,39 @@ msgstr ""
 "Last-Translator: \n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/class-blogfoster-insights-admin.php:155
+#: admin/class-wp-blogfoster-insights-admin.php:155
 #, php-format
 msgid "Welcome to %s! You can find the plugin at %s."
 msgstr ""
 
-#: admin/class-blogfoster-insights-admin.php:208
+#: admin/class-wp-blogfoster-insights-admin.php:208
 msgid "Integrate blogfoster Insights into your WordPress blog."
 msgstr ""
 
-#: admin/class-blogfoster-insights-admin.php:226
+#: admin/class-wp-blogfoster-insights-admin.php:226
 msgid "Website Settings"
 msgstr ""
 
-#: admin/class-blogfoster-insights-admin.php:227
+#: admin/class-wp-blogfoster-insights-admin.php:227
 msgid "This plugin integrates blogfoster Insights into your WordPress blog. It helps you to understand your blog and gives blogfoster the chance to offer you  the most suitable sponsored spots and campaigns. After you have configured the  plugin in the settings section, blogfoster Insights starts to work."
 msgstr ""
 
-#: admin/class-blogfoster-insights-admin.php:231
+#: admin/class-wp-blogfoster-insights-admin.php:231
 msgid "Website ID"
 msgstr ""
 
-#: admin/class-blogfoster-insights-admin.php:232
+#: admin/class-wp-blogfoster-insights-admin.php:232
 msgid "Type in your blogfoster website ID and save it. The ID has to be a positive integer."
 msgstr ""
 
-#: admin/partials/blogfoster-insights-admin-display.php:36
+#: admin/partials/wp-blogfoster-insights-admin-display.php:36
 msgid "Helpful links"
 msgstr ""
 
-#: admin/partials/blogfoster-insights-admin-display.php:38
+#: admin/partials/wp-blogfoster-insights-admin-display.php:38
 msgid "Login to your blogfoster account"
 msgstr ""
 
-#: admin/partials/blogfoster-insights-admin-display.php:39
+#: admin/partials/wp-blogfoster-insights-admin-display.php:39
 msgid "blogfoster Website"
 msgstr ""

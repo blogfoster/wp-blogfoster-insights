@@ -21,7 +21,7 @@
  * Author URI:        http://www.blogfoster.com/
  * License:           MIT
  * License URI:       https://opensource.org/licenses/MIT
- * Text Domain:       blogfoster-insights
+ * Text Domain:       wp-blogfoster-insights
  * Domain Path:       /languages
  */
 
@@ -32,19 +32,19 @@ if ( ! defined( 'WPINC' ) ) {
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-blogfoster-insights-activator.php
+ * This action is documented in includes/wp-class-blogfoster-insights-activator.php
  */
 function activate_blogfoster_insights() {
-  require_once plugin_dir_path( __FILE__ ) . 'includes/class-blogfoster-insights-activator.php';
+  require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-blogfoster-insights-activator.php';
   Blogfoster_Insights_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-blogfoster-insights-deactivator.php
+ * This action is documented in includes/class-wp-blogfoster-insights-deactivator.php
  */
 function deactivate_blogfoster_insights() {
-  require_once plugin_dir_path( __FILE__ ) . 'includes/class-blogfoster-insights-deactivator.php';
+  require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-blogfoster-insights-deactivator.php';
   Blogfoster_Insights_Deactivator::deactivate();
 }
 
@@ -55,7 +55,7 @@ register_deactivation_hook( __FILE__, 'deactivate_blogfoster_insights' );
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-blogfoster-insights.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-wp-blogfoster-insights.php';
 
 /**
  * Begins execution of the plugin.
