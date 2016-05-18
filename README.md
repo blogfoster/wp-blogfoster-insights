@@ -1,13 +1,13 @@
 # blogfoster insights wordpress.com plugin
 
-This plugin integrates blogfoster insights into your wordpress.com blog.
+This plugin integrates blogfoster insights into your Wordpress blog.
 
 ## Description
 
-This Plugin integrats blogfoster Insights into your wordpress.com blog. It
-helps blogfoster to understand your blog and help you choosing the best
-campaigns. After you configured the plugin in the settings section blogfoster
-Insights starts to work.
+This Plugin integrates blogfoster Insights into your Wordpress blog. It
+helps you to understand your blog better and helps blogfoster to choose the
+best cooperations and campaigns for you. After you configured the plugin in the
+settings section, blogfoster Insights starts to work.
 
 ## Installation
 

@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       blogfoster insights
  * Plugin URI:        http://www.blogfoster.com/
- * Description:       Integrate blogfoster insights into your wordpress.com blog.
+ * Description:       Integrate blogfoster insights into your Wordpress blog.
  * Version:           1.0.0
  * Author:            blogfoster
  * Author URI:        http://www.blogfoster.com/

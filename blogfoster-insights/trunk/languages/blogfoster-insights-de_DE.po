@@ -5,9 +5,9 @@ msgstr ""
 "Project-Id-Version: Quick New Site Defaults\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/quick-new-site-"
 "defaults\n"
-"POT-Creation-Date: 2016-05-06 17:56+0200\n"
-"PO-Revision-Date: 2016-05-06 17:56+0200\n"
-"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"POT-Creation-Date: 2016-05-18 11:24+0200\n"
+"PO-Revision-Date: 2016-05-18 11:38+0200\n"
+"Last-Translator: blogfoster GmbH\n"
 "Language-Team: info@blogfoster.com\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
@@ -26,8 +26,8 @@ msgid "Welcome to %s! You can find the plugin at %s."
 msgstr "Willkommen zu %s! Du kannst das Plugin finden unter %s."
 
 #: admin/class-blogfoster-insights-admin.php:208
-msgid "Integrate blogfoster insights into your wordpress.com blog."
-msgstr "Integriere blogfoster Insights in dein wordpress.com Blog."
+msgid "Integrate blogfoster insights into your Wordpress blog."
+msgstr "Integriere blogfoster Insights in Dein Wordpress Blog."
 
 #: admin/class-blogfoster-insights-admin.php:226
 msgid "Website Settings"
@@ -35,14 +35,15 @@ msgstr "Webseiten Einstellungen"
 
 #: admin/class-blogfoster-insights-admin.php:227
 msgid ""
-"This Plugin integrats blogfoster Insights into your wordpress.com blog. It "
-"helps us to understand your blog and help you choosing the best campaigns. "
-"After you have entered blogfoster Insights starts to work."
+"This Plugin integrates blogfoster Insights into your Wordpress blog. It "
+"helps you to understand your blog better and helps blogfoster to choose the "
+"best cooperations and campaigns for you. After you configured the plugin in "
+"the settings section, blogfoster Insights starts to work."
 msgstr ""
-"Dieses Plugin integriert blogfoster Insights in dein wordpress.com Blog. "
-"Blogfoster Insights hilft uns dein Blog besser zu verstehen um dir die "
-"besten Kampagnen zu ermöglichen. Fülle deine Einstellungen aus damit es "
-"losgehen kann."
+"Dieses Plugin integriert blogfoster Insights in Dein Wordpress Blog. Es "
+"hilft Dir dabei Deinen Blog besser zu verstehen und ermöglicht uns Dir die "
+"besten Kooperationen und Kampagnen heraus zu suchen. Fülle Deine "
+"Einstellungen aus damit es losgehen kann."
 
 #: admin/class-blogfoster-insights-admin.php:231
 msgid "Website ID"
@@ -53,8 +54,8 @@ msgid ""
 "Type in your blogfoster website ID and save it. The ID has to be a positive "
 "integer."
 msgstr ""
-"Bitte gib deine Website ID an und klicke auf Speicher. Die ID muss eine "
-"positive Zahl sein."
+"Bitte gib Deine Webseiten Id an und speichere die Änderungen. Die Webseiten "
+"Id muss eine positive Zahl sein."
 
 #: admin/partials/blogfoster-insights-admin-display.php:36
 msgid "Helpful links"
@@ -62,8 +63,8 @@ msgstr "Hilfreiche Links"
 
 #: admin/partials/blogfoster-insights-admin-display.php:38
 msgid "Login to your blogfoster account"
-msgstr "Login zu deinem blogfoster-Konto"
+msgstr "Login zu Deinem blogfoster Konto"
 
 #: admin/partials/blogfoster-insights-admin-display.php:39
 msgid "blogfoster Website"
-msgstr "blogfoster Website"
+msgstr "blogfoster Webseite"
