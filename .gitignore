@@ -1,3 +1,8 @@
 *.zip
 .DS_Store
 buildscripts/wp-blogfoster-insights
+
+# ignore wordpress.com svn plugin specific files and folders
+.svn
+wp-blogfoster-insights/tags
+wp-blogfoster-insights/branches
