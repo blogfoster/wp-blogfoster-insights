@@ -2,7 +2,7 @@
 Contributors: blogfoster
 Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
-Tested up to: 4.4
+Tested up to: 4.5
 Stable tag: 1.0.0
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -26,9 +26,15 @@ If you have any new ideas for this plugin send us a message to support@blogfoste
 
 == Installation ==
 
+= Install from WordPress Plugin Directory (recommended) =
+
+1. Install the [blogfoster Insights](https://wordpress.org/plugins/wp-blogfoster-insights/) plugin from the Plugin Directory
+2. Activate the plugin in the Plugin dashboard
+3. Go to 'blogfoster Insights'
+
 = Uploading in WordPress Dashboard =
 
-1. Download the `.zip` archive of the plugin from the releases page: "https://github.com/blogfoster/wp-blogfoster-insights/releases/latest"
+1. Download the [wp-blogfoster-insights.zip](https://github.com/blogfoster/wp-blogfoster-insights/releases/latest) archive of the plugin from the releases page: "https://github.com/blogfoster/wp-blogfoster-insights/releases/latest"
 2. Navigate to the 'Add New' in the plugins dashboard
 3. Navigate to the 'Upload' area
 4. Select `wp-blogfoster-insights.zip` from your computer
