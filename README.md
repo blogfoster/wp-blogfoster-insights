@@ -11,13 +11,13 @@ plugin in the settings section, blogfoster Insights starts to work.
 
 ## Installation
 
-### Install from wordpress.com (recommended)
+### Install from WordPress Plugin Directory (recommended)
 
-1. [Install the wp-blogfoster-insights][004] plugin from the plugin store
+1. [Install the blogfoster Insights][004] plugin from the Plugin Directory
 2. Activate the plugin in the Plugin dashboard
 3. Go to 'blogfoster Insights'
 
-### Uploading to the WordPress
+### Uploading in WordPress Dashboard
 
 1. [Download the `.zip` archive of the plugin from the releases page][001]
 2. Navigate to the 'Add New' in the plugins dashboard
