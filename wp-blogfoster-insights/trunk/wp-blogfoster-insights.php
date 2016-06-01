@@ -16,7 +16,7 @@
  * Plugin Name:       blogfoster Insights
  * Plugin URI:        https://github.com/blogfoster/wp-blogfoster-insights
  * Description:       Integrate blogfoster Insights into your WordPress blog.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            blogfoster
  * Author URI:        http://www.blogfoster.com/
  * License:           MIT
