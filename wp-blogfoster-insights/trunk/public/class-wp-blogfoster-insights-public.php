@@ -121,7 +121,7 @@ class Blogfoster_Insights_Public {
         })(window, document);
       </script>
       <noscript>
-        <p><img src="https://insights.blogfoster.com/v1/%d.png" style="border:0;" alt="" /></p>
+        <img src="https://insights.blogfoster.com/v1/%d.png" style="border:0;" alt="" />
       </noscript>
     ';
 
