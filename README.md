@@ -82,8 +82,8 @@ central wordpress.com svn repository!
 - after a new pull request was merged describe the changes in the [CHANGELOG.md][007], [README.txt][006]
 - update the `Stable tag:` section in the [README.txt][006] to the next version your going to publish
 - update the **Version** tag in [wp-blogfoster-insights.php][005]
-- commit changes like: `v${tag}`
-- create a tag
+- commit changes like: `v${tag}` (e.g. v1.0.0)
+- create a tag (e.g. v1.0.0)
 - create a release, run `make zip`, and attach the generated **wp-blogfoster-insights.zip** to this release
 
 ### wordpress.com
@@ -91,19 +91,20 @@ central wordpress.com svn repository!
 After releasing a new version on github we should reflect these changes to the central wordpress.com svn repository.
 
 - go into the [wp-blogfoster-insights][008] subdirectory where the **trunk** folder is located
-- checkout the svn repository [https://plugins.svn.wordpress.org/wp-blogfoster-insights/][003]
-- add all changes to to svn / mark all changes as resolved so that all changes from git are reflected to svn
+- checkout the svn repository [https://plugins.svn.wordpress.org/wp-blogfoster-insights/][003] into this directory
+- add all changes to to svn / mark all changes as resolved so that all changes from git are reflected to svn and commit that
 - copy the trunk directory into the tags folder giving it the name of the latest tag (which we released on github)
 - commit your changes (please contact your admin for the svn credentials)
 - read the [wordpress svn getting started guide][002] if necessary
 
 ```bash
 cd ./wp-blogfoster-insights
-svn checkout https://plugins.svn.wordpress.org/wp-blogfoster-insights/
+svn checkout https://plugins.svn.wordpress.org/wp-blogfoster-insights/ .
 # svn stat / svn diff / svn add / svn resolved ...
+svn commit -m 'my changes' --username '<username>'
 # e.g. our last release on github was 1.0.1
 svn cp trunk tags/1.0.1
-svn commit -m '<commit message>' --username '<username>'
+svn commit -m '1.0.1' --username '<username>'
 ```
 
 <!-- Links -->
