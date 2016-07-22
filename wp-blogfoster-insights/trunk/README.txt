@@ -3,7 +3,7 @@ Contributors: blogfoster
 Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.5.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -50,6 +50,9 @@ Every blogger who is interested in his or her audience.
 
 == Changelog ==
 
+= 1.0.2 =
+* remove `<p>` tag from `<noscript>` section to keep a valid html format
+
 = 1.0.1 =
 * update assets for wordpress.org Plugin Directory
 * update Readme on how to install using the Plugin Directory
@@ -59,6 +62,9 @@ Every blogger who is interested in his or her audience.
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+-
 
 = 1.0.1 =
 -

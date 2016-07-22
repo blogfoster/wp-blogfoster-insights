@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- remove `<p>` tag from `<noscript>` section to keep a valid html format
+
 ## 1.0.1
 
 - update assets for wordpress.org Plugin Directory

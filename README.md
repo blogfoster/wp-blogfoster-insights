@@ -81,7 +81,8 @@ central wordpress.com svn repository!
 
 - after a new pull request was merged describe the changes in the [CHANGELOG.md][007], [README.txt][006]
 - update the `Stable tag:` section in the [README.txt][006] to the next version your going to publish
-- update the version tag in [wp-blogfoster-insights.php][005]
+- update the **Version** tag in [wp-blogfoster-insights.php][005]
+- commit changes like: `v${tag}`
 - create a tag
 - create a release, run `make zip`, and attach the generated **wp-blogfoster-insights.zip** to this release
 
@@ -111,7 +112,7 @@ svn commit -m '<commit message>' --username '<username>'
 [002]: https://wordpress.org/plugins/about/svn/
 [003]: https://plugins.svn.wordpress.org/wp-blogfoster-insights/
 [004]: https://wordpress.org/plugins/wp-blogfoster-insights/
-[005]: wp-blogfoster-insights/trunk/wp-blogfoster-insights.php
+[005]: wp-blogfoster-insights/trunk/wp-blogfoster-insights.php#L19
 [006]: wp-blogfoster-insights/trunk/README.txt
 [007]: CHANGELOG.md
 [008]: wp-blogfoster-insights/
