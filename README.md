@@ -50,9 +50,14 @@ make zip
 docker-compose pull
 docker-compose build
 docker-compose up -d
+
+# check the logs
+docker-compose logs
 ```
 
-- wordpress should be available now at port **8080**
+- after a few seconds wordpress should be available at port **8080**
+
+> **NOTE:** if you're using docker-machine you have to check the port on that machine (e.g. *192.168.99.100:8080*)
 
 ## Releasing
 
@@ -68,7 +73,7 @@ central wordpress.com svn repository!
 - create a feature branch from master
 - do all your changes in the trunk directory
 - run `make lint` to check that your php code is still valid
-- see the development section how to run the plugin locally
+- see the [development section][009] how to run the plugin locally
 - update the `Tested up to:` section in the [README.txt][006] if necessary
 - create a pull request
 
@@ -110,3 +115,4 @@ svn commit -m '<commit message>' --username '<username>'
 [006]: wp-blogfoster-insights/trunk/README.txt
 [007]: CHANGELOG.md
 [008]: wp-blogfoster-insights/
+[009]: #development
