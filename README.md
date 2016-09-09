@@ -58,6 +58,7 @@ docker-compose logs
 - after a few seconds wordpress should be available at port **8080**
 
 > **NOTE:** if you're using docker-machine you have to check the port on that machine (e.g. *192.168.99.100:8080*)
+> **NOTE:** if you're using docker for mac you can check *127.0.0.1:8080*
 
 ## Releasing
 
