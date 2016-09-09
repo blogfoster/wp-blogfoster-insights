@@ -100,8 +100,10 @@ After releasing a new version on github we should reflect these changes to the c
 
 ```bash
 cd ./wp-blogfoster-insights
+# - only checkout the repository the first time, you dont need to do later on
 svn checkout https://plugins.svn.wordpress.org/wp-blogfoster-insights/ .
-# svn stat / svn diff / svn add / svn resolved ...
+# - svn stat / svn diff / svn add / svn resolved
+# - if this is not your first commit just: svn stat / svn diff
 svn commit -m 'my changes' --username '<username>'
 # e.g. our last release on github was 1.0.1
 svn cp trunk tags/1.0.1
