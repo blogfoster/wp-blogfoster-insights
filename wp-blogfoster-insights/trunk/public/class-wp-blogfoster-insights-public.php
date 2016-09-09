@@ -120,9 +120,6 @@ class Blogfoster_Insights_Public {
           s.type="text/javascript"; s.defer=true; s.async=true; s.src=t; a.parentNode.insertBefore(s,a);
         })(window, document);
       </script>
-      <noscript>
-        <img src="https://insights.blogfoster.com/v1/%d.png" style="border:0;" alt="" />
-      </noscript>
     ';
 
     printf($snippet, $id, $id);
