@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- remove `<noscript>` section entirely
+
 ## 1.0.2
 
 - remove `<p>` tag from `<noscript>` section to keep a valid html format
