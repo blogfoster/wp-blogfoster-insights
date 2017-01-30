@@ -3,7 +3,7 @@ Contributors: blogfoster
 Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.7.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -49,6 +49,9 @@ If you have any new ideas for this plugin send us a message to support@blogfoste
 Every blogger who is interested in his or her audience.
 
 == Changelog ==
+
+= 1.0.4 =
+* fix: don't define protocol in admin css import
 
 = 1.0.3 =
 * remove `<noscript>` section entirely

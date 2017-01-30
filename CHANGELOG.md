@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- fix: don't define protocol in admin css import
+
 ## 1.0.3
 
 - remove `<noscript>` section entirely

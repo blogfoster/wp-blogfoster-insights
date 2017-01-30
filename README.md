@@ -43,7 +43,7 @@ make zip
 
 ### docker-compose
 
-- install docker and docker-compose ([docker for mac](https://docs.docker.com/docker-for-mac))
+- install docker and docker-compose ([docker for mac][010])
 - run docker-compose commands to start the **wordpress** service
 
 ```bash
@@ -125,3 +125,4 @@ svn commit -m '1.0.1' --username '<username>'
 [007]: CHANGELOG.md
 [008]: wp-blogfoster-insights/
 [009]: #development
+[010]: https://docs.docker.com/docker-for-mac
