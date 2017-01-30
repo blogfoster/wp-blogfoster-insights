@@ -43,7 +43,7 @@ make zip
 
 ### docker-compose
 
-- install docker and docker-compose
+- install docker and docker-compose ([docker for mac](https://docs.docker.com/docker-for-mac))
 - run docker-compose commands to start the **wordpress** service
 
 ```bash
@@ -52,20 +52,24 @@ docker-compose build
 docker-compose up -d
 
 # check the logs
-docker-compose logs
+docker-compose logs -f
 ```
 
 - after a few seconds wordpress should be available at port **8080**
 
-> **NOTE:** if you're using docker-machine you have to check the port on that machine (e.g. *192.168.99.100:8080*)
-> **NOTE:** if you're using docker for mac you can check *127.0.0.1:8080*
+> **NOTE:** when using docker for mac you can check *127.0.0.1:8080*
+
+### testing the plugin locally
+
+- after creating a local wordpress setup open *127.0.0.1:8080* and follow the wordpress one-time setup procedure
+- after doing changes run `make zip` to create a local copy of the plugin as zip file
+- upload this zip file to your local installation
 
 ## Releasing
 
 This Section describes how to create a new release for github and wordpress.com.
 
-All development process should be reflected in this git repository first before pushing any changes to the
-central wordpress.com svn repository!
+All development process should be reflected in this git repository first before pushing any changes to the central wordpress.com svn repository!
 
 ### github
 
@@ -100,7 +104,7 @@ After releasing a new version on github we should reflect these changes to the c
 
 ```bash
 cd ./wp-blogfoster-insights
-# - only checkout the repository the first time, you dont need to do later on
+# - only checkout the repository the first time, you don't need to do this later on
 svn checkout https://plugins.svn.wordpress.org/wp-blogfoster-insights/ .
 # - svn stat / svn diff / svn add / svn resolved
 # - if this is not your first commit just: svn stat / svn diff

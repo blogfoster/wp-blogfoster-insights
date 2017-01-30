@@ -2,7 +2,7 @@
 Contributors: blogfoster
 Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
-Tested up to: 4.6.1
+Tested up to: 4.7.2
 Stable tag: 1.0.3
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
