@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- tested in WP Version 4.8
+
 ## 1.0.4
 
 - fix: don't define protocol in admin css import
