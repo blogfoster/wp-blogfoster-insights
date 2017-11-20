@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.6
+
+- fix: uninstalling the plugin now does not show an error anymore
+- chore: tested in WP Version 4.9
+
 ## 1.0.5
 
 - tested in WP Version 4.8

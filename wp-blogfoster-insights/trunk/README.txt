@@ -3,7 +3,7 @@ Contributors: blogfoster
 Tags: blogfoster, widget, snippet, analytics, insights
 Requires at least: 3.0.1
 Tested up to: 4.9
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GNU GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
@@ -49,6 +49,10 @@ If you have any new ideas for this plugin send us a message to support@blogfoste
 Every blogger who is interested in his or her audience.
 
 == Changelog ==
+
+= 1.0.6 =
+* fix: uninstalling the plugin now does not show an error anymore
+* chore: tested in WP Version 4.9
 
 = 1.0.5 =
 * tested in WP Version 4.8
