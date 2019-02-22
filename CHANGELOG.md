@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+- tested in WP Version 5.1
+
 ## 1.0.6
 
 - fix: uninstalling the plugin now does not show an error anymore
